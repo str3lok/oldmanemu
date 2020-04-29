@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>oldmanemu</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/photoswipe.css" type="text/css">
+<link href="css/default-skin/default-skin.css" rel="stylesheet" />
+</head>
+<body class="page-single-item">
+
+<section class="main-section">
+	<div class="topScroll"></div>
+
+	<div class="help-container">
+		<div class="help-text"><span>Помочь с выбором?</span></div>
+		<ul class="help-btn">
+			<li><a href="#"><span>Да</span></a></li>
+			<li><a href="#" class="help-no"><span>Нет</span></a></li>
+		</ul>
+		<div class="help-close"><a href="#"></a></div>
+	</div><!-- /.help-container -->
+
+	<div class="content">
+	
+	<div class="main-content">
+		<div class="section-left xs-hidden">
+			<div class="section-left-content">
+				<div class="burger-box">
+					<span class="burger-nav mobile-nav"></span>
+					<span class="burger-nav m2Lavel"></span>
+				</div>
+				
+				<ul class="main-nav">
+					<li>
+						<a href="#" class="menuOpen active-page">
+							<span>
+								<i class="i-nav-1"></i>
+								<span>
+									<span data-hover="Продукция">Продукция</span>
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li>
+						<a href="articles.html">
+							<span>
+								<i class="i-nav-2"></i>
+								<span>
+									<span data-hover="Статьи">Статьи</span>
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li>
+						<a href="video.html">
+							<span>
+								<i class="i-nav-3"></i>
+								<span>
+									<span data-hover="Видео">Видео</span>
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li>
+						<a href="#">
+							<span>
+								<i class="i-nav-4"></i>
+								<span>
+									<span data-hover="О компании">О компании</span>
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li>
+						<a href="contacts.html">
+							<span>
+								<i class="i-nav-5"></i>
+								<span>
+									<span data-hover="Контакты">Контакты</span>
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li>
+						<a href="single-page.html">
+							<span>
+								<i class="i-nav-6"></i>
+								<span>
+									<span data-hover="Cтать дилером">Cтать дилером</span>
+								</span>
+							</span>
+						</a>
+					</li>
+				</ul>						
+			</div><!--/.section-left-content-->
+		</div><!-- /.section-left -->
+		
+		<div class="section-content">
+			<header>
+				<div class="header-top">
+				<div class="burger-box xs-visible">
+					<span class="burger-nav mobile-nav"></span>
+					<span class="burger-nav m2Lavel"></span>
+				</div>				
+					<div class="logo"><a href="home.html"><img src="images/logo.png" alt="#"></a></div>
+					<ul class="header-phones">
+						<li>
+							<a href="#" data-box="list-phones" class="modal-link">
+								<i class="phone-1"></i>
+								<span class="i-txt">Телефоны</span>
+							</a>
+						</li>
+						<li class="xs-hidden">
+							<a href="#" data-box="callBox" class="modal-link callModal">
+								<i class="phone-2"></i>
+								<span class="i-txt">Заказ звонка</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="header-bottom">
+					<li>
+						<a href="#" class="i-btn-search modal-link" data-box="search-box">
+							<i></i>
+							<span class="i-txt">Поиск</span>
+						</a>
+					</li>
+					<li id="selectCurrency">
+						<a href="#" class="i-currency dollar">
+							<span></span>
+							<span class="i-txt">Валюта</span>	
+						</a>
+						<ul class="drop drop-currency">
+							<li data-value="₴" class="grivna"><span><i>₴</i> <span>В гривнах</span></span></li>
+							<li data-value="$" class="dollar"><span><i>$</i> <span>В долларах</span></span></li>
+						</ul>
+						<input type="hidden" id="valCurrency">
+					</li>
+					<li>
+						<a href="#" class="i-share share-btn">
+							<i></i>
+							<span class="i-txt">Расшарить</span>
+						</a>
+						<ul class="drop drop-share">
+							<li><a href="#" class="i-fb"><i></i></a></li>
+							<li><a href="#" class="i-vk"><i></i></a></li>
+							<li><a href="#" class="i-tw"><i></i></a></li>
+						</ul>						
+					</li>
+					<li>
+						<a href="#" data-box="consultant" class="i-consultant modal-link">
+							<i></i>
+							<span class="i-txt">Консультация</span>
+						</a>
+					</li>
+				</ul>
+			</header>
+				
+				<div class="podbor-container">
+
+				<div class="podbor-title"><span class="open-accordion">ПодБОР товарОВ <br> по авто</span></div>		
+
+							<div class="podbor-content podbor-accordion">								
+								<form action="#" method="post">
+									<div class="control-form control-select">
+										<div class="select-box" id="select1">
+											<span class="slct"><span>Марка авто</span></span>
+											<ul class="drop-select">
+												<li data-value="Ford"><span>Ford</span></li>
+												<li data-value="Jeep"><span>Jeep</span></li>
+												<li data-value="Land Rover"><span>Land Rover</span></li>
+												<li data-value="Mercedes"><span>Mercedes</span></li>
+												<li data-value="Mitsubishi"><span>Mitsubishi</span></li>
+												<li data-value="Nissan"><span>Nissan</span></li>
+												<li data-value="Toyota"><span>Toyota</span></li>
+												<li data-value="Volkswagen"><span>Volkswagen</span></li>
+											</ul>
+											<input type="hidden" id="valSelect1">
+										</div>
+									</div>
+									<div class="control-form control-select">
+										<div class="select-box" id="select2">
+											<span class="slct"><span>Модель</span></span>
+											<ul class="drop-select">
+												<li data-value="Ford"><span>Ford</span></li>
+												<li data-value="Jeep"><span>Jeep</span></li>
+												<li data-value="Land Rover"><span>Land Rover</span></li>
+												<li data-value="Mercedes"><span>Mercedes</span></li>
+												<li data-value="Mitsubishi"><span>Mitsubishi</span></li>
+												<li data-value="Nissan"><span>Nissan</span></li>
+												<li data-value="Toyota"><span>Toyota</span></li>
+												<li data-value="Volkswagen"><span>Volkswagen</span></li>
+											</ul>
+											<input type="hidden" id="valSelect2">
+										</div>
+									</div>
+									<div class="control-form control-select">
+										<div class="select-box" id="select3">
+											<span class="slct"><span>Год выпуска</span></span>
+											<ul class="drop-select">
+												<li data-value="Ford"><span>Ford</span></li>
+												<li data-value="Jeep"><span>Jeep</span></li>
+												<li data-value="Land Rover"><span>Land Rover</span></li>
+												<li data-value="Mercedes"><span>Mercedes</span></li>
+												<li data-value="Mitsubishi"><span>Mitsubishi</span></li>
+												<li data-value="Nissan"><span>Nissan</span></li>
+												<li data-value="Toyota"><span>Toyota</span></li>
+												<li data-value="Volkswagen"><span>Volkswagen</span></li>
+											</ul>
+											<input type="hidden" id="valSelect3">
+										</div>
+									</div>
+									<div class="control-form">
+										<button type="submmit" class="btn"><span>Подобрать</span></button>
+									</div>		
+								</form>										
+							</div><!-- /.podbor-content -->	
+
+					</div><!-- /.podbor-container -->	
+
+						<div class="pageTitleBox" data-ix="fade-from-left">
+							<div class="pt-left" data-ix="fade-from-left-2">
+								<div class="title">
+									<h1>Задний бампер Kaymar Toyota Prado LC150 (K3720U-S)</h1>
+								</div>
+								<div class="breadcrumb-box" data-ix="fade-from-right">
+									<ul class="breadcrumb">
+										<li><a href="#" class="d-hover"><span data-hover="Главная">Главная</span></a></li>
+										<li><a href="#" class="d-hover"><span data-hover="Бамперы задние KAYMAR">Бамперы задние KAYMAR</span></a></li>
+										<li><span>Задний бампер Kaymar Toyota Prado LC150 (K3720U-S)</span></li>
+									</ul>									
+								</div>
+							</div>
+
+							<div class="pt-right pt-rightV">
+								<ul class="pt-list list-view">
+									<li class="v-l" data-ix="fade-from-bottom">
+										<a href="delivery.html">
+										<span class="sl-box sl-2 pt-icon-1">
+											<i></i> 
+											<span><span data-hover="Доставка">Доставка</span></span>
+										</span>
+										</a>
+									</li>
+									<li class="active v-b" data-ix="fade-from-bottom-2">
+										<a href="payment.html">
+										<span class="sl-box sl-1 pt-icon-2">
+											<i></i> 
+											<span><span data-hover="Оплата">Оплата</span></span>
+										</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div><!-- /.pageTitleBox -->	
+
+
+						<div class="single-container">
+							<div class="single-left">
+								<ul class="single-list-img demo-gallery">
+
+									<li class="product-img">
+									<a href="images/product/pr22.jpg" data-size="964x1024"> 
+									<img src="images/product/pr22.jpg" alt=""></a></li>
+
+									<li class="product-img">
+									<a href="images/product/pr27.jpg" data-size="964x1024"><img src="images/product/pr27.jpg" alt=""></a></li>
+
+									<li class="product-img"><a href="images/product/pr28.jpg" data-size="964x1024"><img src="images/product/pr28.jpg" alt=""></a></li>
+
+									<li class="product-img"><a href="images/product/pr29.jpg" data-size="964x1024"><img src="images/product/pr29.jpg" alt=""></a></li>
+								</ul>
+								
+								<div class="slider-single">
+									<div class="slider-title"><span>Аксессуары</span></div>
+									<div class="slider single-item sItem1">
+										<div>
+											<div class="product-content color2">
+												<div class="product-img loader">
+													<a href="#">
+														<img src="images/product/pr30.jpg"  alt="#">
+														<i class="product-corner"></i>
+													</a>
+												</div>						
+												<div class="product-box">
+													<div class="podbor-corner"></div>
+													<div class="product-top">
+														<a href="single-item.html" class="pr-title">Задний бампер Kaymar Mitsubishi Pajero Sport 2009+</a>
+													</div>
+													<div class="product-bottom">
+														<span class="product-price">Цена: 16952 грн.</span>
+														<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+													</div>
+												</div>
+											</div><!-- /.product-content -->										
+										</div>
+
+										<div>
+											<div class="product-content color2">
+												<div class="product-img loader">
+													<a href="#">
+														<img src="images/product/pr3.jpg"  alt="#">
+														<i class="product-corner"></i>
+													</a>
+												</div>						
+												<div class="product-box">
+													<div class="podbor-corner"></div>
+													<div class="product-top">
+														<a href="single-item.html" class="pr-title">Тормозной диск DBA Gold Nissan Pathfinder R51 2005+ Передний (DBA2310X)</a>
+													</div>
+													<div class="product-bottom">
+														<span class="product-price">Цена: 16952 грн.</span>
+														<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+													</div>
+												</div>
+											</div><!-- /.product-content -->										
+										</div>
+
+										<div>
+											<div class="product-content color2">
+												<div class="product-img loader">
+													<a href="#">
+														<img src="images/product/pr1.jpg"  alt="#">
+														<i class="product-corner"></i>
+													</a>
+												</div>						
+												<div class="product-box">
+													<div class="podbor-corner"></div>
+													<div class="product-top">
+														<a href="single-item.html" class="pr-title">Задний бампер Kaymar Mitsubishi Pajero Sport 2009+</a>
+													</div>
+													<div class="product-bottom">
+														<span class="product-price">Цена: 16952 грн.</span>
+														<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+													</div>
+												</div>
+											</div><!-- /.product-content -->										
+										</div>
+
+										<div>
+											<div class="product-content color2">
+												<div class="product-img loader">
+													<a href="#">
+														<img src="images/product/pr2.jpg"  alt="#">
+														<i class="product-corner"></i>
+													</a>
+												</div>						
+												<div class="product-box">
+													<div class="podbor-corner"></div>
+													<div class="product-top">
+														<a href="single-item.html" class="pr-title">Тормозной диск DBA Gold Nissan Pathfinder R51 2005+ Передний (DBA2310X)</a>
+													</div>
+													<div class="product-bottom">
+														<span class="product-price">Цена: 16952 грн.</span>
+														<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+													</div>
+												</div>
+											</div><!-- /.product-content -->										
+										</div>										
+
+									</div><!-- /.single-item -->
+
+									<ul class="slider-nav single-nav">
+										<li class="slidePrev slidePrev2"><i class="prev-arrow"></i></li>
+										<li class="slideNext slideNext2"><i class="next-arrow"></i></li>
+									</ul>									
+								</div><!-- /.slider-single -->
+
+							</div><!-- /.single-left -->
+							<div class="single-right">								
+
+								<div class="single-info-box">
+
+								<ul class="single-list-img demo-gallery single-listMobile">
+
+									<li class="product-img prM">
+									<a href="images/product/pr22.jpg" data-size="964x1024"> 
+									<img src="images/product/pr22.jpg" alt=""></a></li>
+
+									<li class="product-img prM">
+									<a href="images/product/pr27.jpg" data-size="964x1024"><img src="images/product/pr27.jpg" alt=""></a></li>
+
+									<li class="product-img prM"><a href="images/product/pr28.jpg" data-size="964x1024"><img src="images/product/pr28.jpg" alt=""></a></li>
+
+									<li class="product-img prM"><a href="images/product/pr29.jpg" data-size="964x1024"><img src="images/product/pr29.jpg" alt=""></a></li>
+								</ul>
+
+						
+
+									<div class="single-info-1 s-info-block">
+										<div class="s-i-top">
+											<div class="s-i-box s-i-rating">
+												<div class="star-box star-inline singleStar">
+								 					<div class="star3">
+								 						<span data-star="star1" class="st1 star-btn"></span>
+								 						<span data-star="star2" class="st2 star-btn"></span>
+								 						<span data-star="star3" class="st3 star-btn"></span>
+								 						<span data-star="star4" class="st4 star-btn"></span>
+								 						<span data-star="star5" class="st5 star-btn"></span>
+								 					</div>
+								 				</div>
+											</div><!-- /.s-i-rating -->
+											<div class="s-i-box s-i-add">
+												<div class="order-action-top singleTop"><span>1</span></div>
+												<ul class="order-btn">
+													<li><a href="#" class="btn-minus single-minus"><span></span></a></li>
+													<li><a href="#" class="btn-plus single-plus"><span></span></a></li>
+												</ul>												
+											</div>
+										</div>
+
+										<div class="s-i-bottom">
+											<div class="s-i-skidka">
+												<ul class="skidka-top">
+													<li><span>АКЦИЯ!</span></li>
+													<li><span>-10%</span></li>													
+												</ul>
+												<ul class="skidka-timer" id="clockdiv">
+													<li class="t-day">
+														<div>
+															<span class="days">1</span>
+															<span class="days-txt">день</span>
+														</div>
+													</li>													
+													<li class="t-hour">
+														<div>
+															<span class="hours">10</span>
+															<span>час.</span>
+														</div>
+													</li>													
+													<li class="t-min">
+														<div>
+															<span class="minutes">12</span>
+															<span>мин.</span>
+														</div>
+													</li>													
+													<li class="t-sek">
+														<div>
+															<span class="seconds">59</span>
+															<span>сек.</span>
+														</div>
+													</li>
+												</ul>
+											</div>											
+										</div>
+									</div><!-- /.single-info-1 -->
+									
+									<div class="single-info-2 s-info-block">
+										<div class="single-order-sum s-order-skidka">
+											<ul>
+												<li><span class="singleSum allSum" data-price="78913">78913</span> <span>грн.</span></li>
+												<li class="s-li"><div><span>78913</span> <span>грн.</span></div></li>
+											</ul>
+										</div><!-- /.order-sum -->
+
+										<a href="#" class="single-order-basket">
+											<span class="single-order-basket-box">
+												<i></i>
+												<span class="single-order-basket-txt"><span>Купить</span></span>
+											</span>
+										</a>										
+									</div><!-- /.single-info-2 -->
+
+									<div class="single-info-3 s-info-block">
+										<div class="s-i-bottom">
+											<ul class="s-i-phone">
+												<li><a href="#modalPhones" class="i-consultant modal-open"><i class="s-icon-phone-1"></i> <span class="i-txt">Телефоны</span></a></li>
+												<li><a href="#consultantCall" class=" modal-open"><i class="s-icon-phone-2"></i> <span class="i-txt">Заказ звонка</span></a></li>
+											</ul>
+										</div>									
+										<div class="s-i-top">
+											<div class="s-i-box s-i-share">
+												<a href="#" class="i-share share-btn">
+													<i></i> <span class="i-txt">Расшарить</span>
+												</a>
+												<ul class="drop drop-share">
+													<li><a href="#" class="i-fb"><i></i></a></li>
+													<li><a href="#" class="i-vk"><i></i></a></li>
+													<li><a href="#" class="i-tw"><i></i></a></li>
+												</ul>												
+											</div>
+											<div class="s-i-box">
+												<a href="#consultantOrder" class="i-consultant modal-open">
+													<i></i> <span class="i-txt">Консультация</span>
+												</a>
+											</div>											
+										</div>
+
+										<ul class="pt-list list-view">
+											<li class="v-l">
+												<a href="delivery.html">
+												<span class="sl-box sl-2">
+													<i></i> 
+													<span><span data-hover="Доставка">Доставка</span></span>
+												</span>
+												</a>
+											</li>
+											<li class="active v-b">
+												<a href="payment.html">
+												<span class="sl-box sl-1">
+													<i></i> 
+													<span><span data-hover="Оплата">Оплата</span></span>
+												</span>
+												</a>
+											</li>
+										</ul>										
+									</div><!-- /.single-info-3 -->
+								</div><!--/.single-info-box-->
+								
+								<div class="complect-container">
+									<ul class="complect-list">
+										<li>
+											<div class="complect-top"><i></i></div>
+											<div class="complect-box">
+												<div class="complect-img">
+													<img src="images/complect/complect1.jpg" class="pc" alt="">
+													
+												</div>
+												<div class="complect-info cInfo-1">
+													<p>Комплект подвески old man emu Land Rover Defender 110 (+55mm)</p>
+													<span>14500 грн.</span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="complect-top"><i></i></div>
+											<div class="complect-box">
+												<div class="complect-img">
+													<img src="images/complect/complect2.jpg" class="pc" alt="">
+													
+												</div>											
+												<div class="complect-info cInfo-2">
+													<p>Комплект подвески old man emu Land Rover Defender 110 (+55mm)</p>
+													<span>14500 грн.</span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="complect-top"><i></i></div>
+											<div class="complect-box">
+												<div class="complect-img">
+													<img src="images/complect/complect3.jpg" class="pc" alt="">
+													
+												</div>												
+												<div class="complect-info cInfo-3">
+													<p>Комплект подвески old man emu Land Rover Defender 110 (+55mm)</p>
+													<span>14500 грн.</span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="complect-top"><i></i></div>
+											<div class="complect-box">
+												<div class="complect-img">
+													<img src="images/complect/complect4.jpg" class="pc" alt="">
+													
+												</div>												
+												<div class="complect-info cInfo-4">
+													<p>Комплект подвески old man emu Land Rover Defender 110 (+55mm)</p>
+													<span>14500 грн.</span>
+												</div>
+											</div>
+										</li>
+									</ul>
+
+									<div class="complect-bay">
+										<ul class="complect-sost">
+											<li>
+												<div><span>78913</span><span>грн.</span></div>
+											</li>
+											<li>
+												<div><span>78913</span><span>грн.</span></div>
+											</li>
+										</ul>
+										<a href="#" class="complect-btn"><span>Купить комплект</span></a>
+									</div>
+
+								</div><!-- /.complect-container -->
+
+								<div class="tab-container">
+									<ul class="tab-list">
+										<li class="active" data-tab="tab1">
+											<i class="t-line"></i><span><span>Описание</span></span><i class="t-corner"></i>
+										</li>									
+										<li data-tab="tab2">
+											<i class="t-line"></i><span><span>Задать вопрос</span></span><i class="t-corner"></i>
+										</li>										
+										<li data-tab="tab3">
+											<i class="t-line"></i><span><span>Отзывы</span></span><i class="t-corner"></i>
+										</li>
+									</ul>
+
+									<div class="tab-content">
+										<div class="tab-box active tab1">
+
+
+											<div class="tab-box-text">
+											
+											<table cellpadding="0" cellspacing="0" class="prTable">
+												<tr>
+													<td>K1058</td>
+													<td>Выносной кр-ж канистры левый двойной к задн. бамперу</td>
+													<td>$1 220</td>
+												</tr>												
+												<tr>
+													<td>K8140R</td>
+													<td>Выносной кр-ж канистры левый двойной к задн. бамперу</td>
+													<td>$1 220</td>
+												</tr>												
+												<tr>
+													<td>K1058</td>
+													<td>Выносной кр-ж канистры левый двойной к задн. бамперу</td>
+													<td>$1 220</td>
+												</tr>												
+												<tr>
+													<td>K8140R</td>
+													<td>Выносной кр-ж канистры левый двойной к задн. бамперу</td>
+													<td>$1 220</td>
+												</tr>
+											</table>											
+												<h2>Почему именно Kayman</h2>
+												<p>Бампер Kaymar - мощная стальная замена хрупкому оригинальному бамперу. Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер. Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка крепления для HI-LIFT и телескопической фары заднего хода. </p>
+												<p>ВНИМАНИЕ ! Цена указана ЗА БАМПЕР. Калитки приобретаются отдельно. Любая из дополнительных калиток может быть установлена или демонтирована в течение нескольких минут. </p>
+
+												<div class="clear"></div>
+
+
+												<div class="video-container">
+													<div class="prVideo" data-youtube="1">
+							                           <iframe src="https://www.youtube.com/embed/3qsuSVxvLjQ?rel=0&showinfo=0&controls=0&wmode=opaque" frameborder="0" allowfullscreen></iframe>
+							                        </div> 
+						                        </div>
+
+						                        <div class="clear"></div>
+
+												<h3>Технические характеристики:</h3>
+												<ul class="simple-list">
+													<li>Корпус из алюминия A360, отлитого под большим давлением.</li>
+													<li>Небьющееся стекло из поликарбоната.</li>
+													<li>Защитная крышка из поликарбоната, устойчивая к действию УФ.</li>
+													<li>Крепеж из нержавеющей стали с различными вариантами установки.</li>
+													<li>Порошковое покрытие корпуса.</li>
+													<li>Сапун с мембраной Goretex.</li>
+													<li>Степень защиты IP68.</li>
+												</ul>
+												<img src="images/img2.jpg" class="text-left" alt="#"> 
+												<p>													
+													Автомобильный бортовой компрессор максимальной производительности CKMTA12 разработан для включения пневматических блокировок дифференциалов ARB и способен работать в самых экстремальных условиях эксплуатации. Два мотора компрессора обеспечивают максимальную мощность и позволяют применять компрессор для различных целей. Мощность компрессора позволяет подключать профессиональный пневматический инструмент, накачивать шины повышенной проходимости для внедорожников любого диаметра, накачивать лодки или иное оборудование для кемпинга или туризма. 	
+												</p>
+												<p>Дизайн и конструкция компрессора разработана специально для установки и подключения внутри кузова внедорожника (место установки выбирается исходя из требований безопасности эксплуатации автомобиля и дополнительного оборудования).</p>
+												
+												<div class="clear"></div>
+
+												<img src="images/img3.jpg" alt="#" class="text-right"> 
+												<p>Автомобильный бортовой компрессор максимальной производительности CKMTA12 разработан для включения пневматических блокировок дифференциалов ARB и способен работать в самых экстремальных условиях эксплуатации. Два мотора компрессора обеспечивают максимальную мощность и позволяют применять компрессор для различных целей. Мощность компрессора позволяет подключать профессиональный пневматический инструмент, накачивать шины повышенной проходимости для внедорожников любого диаметра, накачивать лодки или иное оборудование для кемпинга или туризма. </p>
+												<p>Дизайн и конструкция компрессора разработана специально для установки и подключения внутри кузова внедорожника (место установки выбирается исходя из требований безопасности эксплуатации автомобиля и дополнительного оборудования). </p>
+
+												<div class="simple-img">
+													<div><img src="images/img4.jpg" class="img-responsive" alt="#"></div>
+													<div><img src="images/img5.jpg" class="img-responsive" alt="#"></div>
+													<div><img src="images/img6.jpg" class="img-responsive" alt="#"></div>
+												</div>
+												
+											</div><!-- /.tab-box-text -->
+										</div><!-- /.tab-box-1 -->
+
+										<div class="tab-box tab2">
+											<div class="question-form">
+												<form action="#" method="post">
+													<div class="question-box">
+														<div class="consult-control-box">
+															<input type="text" class="form-control" placeholder="Ваше имя">
+															<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+														</div>	
+														<div class="consult-control-box">
+															<input type="text" class="form-control" placeholder="Номер вашего телефона">
+															<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+														</div>														
+														<div class="consult-control-box">
+															<input type="text" class="form-control" placeholder="Ваш e-mail">
+															<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+														</div>
+														<div class="consult-control-box">
+															<textarea class="form-control" placeholder="Опишите вкратце возникшую проблему"></textarea>
+														</div>
+													</div>
+													<div class="question-action">
+														<button type="submit" class="btn"><span>Отправить</span></button>
+													</div>
+												</form>
+											</div><!-- /.question-action-form -->
+										</div><!-- /.tab-box-2 -->
+
+										<div class="tab-box tab3">
+											<div class="add-review">
+												<a href="#">
+													<span><i></i><span>Добавить отзыв</span></span>
+												</a>
+											</div>
+											<ul class="review-list">
+												<li>
+													<span class="review-author"><span> Артем Петровский</span></span>
+													<p>Бампер Kaymar - мощная стальная замена хрупкому ригинальному бамперу. <br> Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер.
+Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка крепления для HI-LIFT и телескопической фары заднего хода.</p>
+												</li>
+												<li>
+													<span class="review-author"><span>Андрей Евангов</span></span>
+													<p>Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер.
+Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка установка крепления  крепления для HI-LIFT и телескопической фары заднего хода. Бампер Kaymar - мощная стальная замена хрупкому оригинальному бамперу.</p>
+												</li>
+												<li>
+													<span class="review-author"><span>Артем Петровский</span></span>
+													<p>Бампер Kaymar - мощная стальная замена хрупкому ригинальному бамперу. <br> Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер.
+Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка крепления для HI-LIFT и телескопической фары заднего хода.</p>
+												</li>
+												<li>
+													<span class="review-author"><span>Артем Петровский</span></span>
+													<p>Бампер Kaymar - мощная стальная замена хрупкому ригинальному бамперу. <br> Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер.
+Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка крепления для HI-LIFT и телескопической фары заднего хода.</p>
+												</li>
+												<li>
+													<span class="review-author"><span>Андрей Евангов</span></span>
+													<p>Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер.
+Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка установка крепления  крепления для HI-LIFT и телескопической фары заднего хода. Бампер Kaymar - мощная стальная замена хрупкому оригинальному бамперу.</p>
+												</li>
+											</ul>
+											<div class="review-form-title"><span>Добавить отзыв</span></div>
+											<div class="question-form">
+												<form action="#" method="post">
+													<div class="question-box qb2">
+														<div class="consult-control-box">
+															<input type="text" class="form-control" placeholder="Ваше имя">
+															<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+														</div>														
+														<div class="consult-control-box">
+															<textarea class="form-control" placeholder="Ваш отзыв"></textarea>
+														</div>
+													</div>
+													<div class="question-action">
+														<button type="submit" class="btn"><span>Отправить</span></button>
+													</div>
+												</form>
+											</div><!-- /.question-action-form -->											
+										</div><!-- /.tab-box-3 -->
+									</div><!-- /.tab-content -->
+								</div><!-- /.tab-container -->
+
+								<div class="single-bottom-box">
+									<div class="s-b-left">
+										<div class="s-i-box">
+											<a href="#consultantOrder" class="i-consultant modal-open"><i></i> <span class="i-txt">Консультация</span></a>
+										</div>	
+
+											<div class="s-i-box s-i-boxAction">
+												<div class="order-action-top"><span>1</span></div>
+												<ul class="order-btn">
+													<li><a href="#" class="btn-minus single-minus"><span></span></a></li>
+													<li><a href="#" class="btn-plus single-plus"><span></span></a></li>
+												</ul>												
+											</div>	
+
+										<ul class="s-i-phone">
+											<li><a href="#modalPhones" class="i-consultant modal-open"><i class="s-icon-phone-1"></i> <span class="i-txt">Телефоны</span></a></li>
+											<li><a href="#consultantCall" class=" modal-open"><i class="s-icon-phone-2"></i> <span class="i-txt">Заказ звонка</span></a></li>
+										</ul>
+									
+									</div><!-- /.s-b-left -->
+
+									<div class="s-b-right">
+										<div class="s-b-bay">
+											<span class="allSum">78913</span><span>грн.</span>
+										</div>
+										<a href="#" class="s-b-link"><span>Купить</span></a>
+									</div><!-- /.s-b-right -->
+									
+								</div><!-- /.single-bottom-box --> 		
+
+							</div><!-- /.single-right -->
+						</div><!-- /.single-container -->
+
+
+
+								<div class="slider-single slider-single2">
+									<div class="slider-title"><span>Аксессуары</span></div>
+									<div class="slider single-item sItem2">
+										<div>
+											<div class="product-content color2">
+												<div class="product-img loader">
+													<a href="#">
+														<img src="images/product/pr30.jpg"  alt="#">
+														<i class="product-corner"></i>
+													</a>
+												</div>						
+												<div class="product-box">
+													<div class="podbor-corner"></div>
+													<div class="product-top">
+														<a href="single-item.html" class="pr-title">Задний бампер Kaymar Mitsubishi Pajero Sport 2009+</a>
+													</div>
+													<div class="product-bottom">
+														<span class="product-price">Цена: 16952 грн.</span>
+														<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+													</div>
+												</div>
+											</div><!-- /.product-content -->										
+										</div>
+
+										<div>
+											<div class="product-content color2 color3">
+												<div class="product-img loader">
+													<a href="#">
+														<img src="images/product/pr3.jpg"  alt="#">
+														<i class="product-corner"></i>
+													</a>
+												</div>						
+												<div class="product-box">
+													<div class="podbor-corner"></div>
+													<div class="product-top">
+														<a href="single-item.html" class="pr-title">Тормозной диск DBA Gold Nissan Pathfinder R51 2005+ Передний (DBA2310X)</a>
+													</div>
+													<div class="product-bottom">
+														<span class="product-price">Цена: 16952 грн.</span>
+														<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+													</div>
+												</div>
+											</div><!-- /.product-content -->										
+										</div>
+
+										<div>
+											<div class="product-content color2">
+												<div class="product-img loader">
+													<a href="#">
+														<img src="images/product/pr1.jpg"  alt="#">
+														<i class="product-corner"></i>
+													</a>
+												</div>						
+												<div class="product-box">
+													<div class="podbor-corner"></div>
+													<div class="product-top">
+														<a href="single-item.html" class="pr-title">Задний бампер Kaymar Mitsubishi Pajero Sport 2009+</a>
+													</div>
+													<div class="product-bottom">
+														<span class="product-price">Цена: 16952 грн.</span>
+														<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+													</div>
+												</div>
+											</div><!-- /.product-content -->										
+										</div>
+
+										<div>
+											<div class="product-content color2 color3">
+												<div class="product-img loader">
+													<a href="#">
+														<img src="images/product/pr2.jpg"  alt="#">
+														<i class="product-corner"></i>
+													</a>
+												</div>						
+												<div class="product-box">
+													<div class="podbor-corner"></div>
+													<div class="product-top">
+														<a href="single-item.html" class="pr-title">Тормозной диск DBA Gold Nissan Pathfinder R51 2005+ Передний (DBA2310X)</a>
+													</div>
+													<div class="product-bottom">
+														<span class="product-price">Цена: 16952 грн.</span>
+														<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+													</div>
+												</div>
+											</div><!-- /.product-content -->										
+										</div>										
+
+									</div><!-- /.single-item -->
+
+									<ul class="slider-nav single-nav">
+										<li class="slidePrev slidePrev3"><i class="prev-arrow"></i></li>
+										<li class="slideNext slideNext3"><i class="next-arrow"></i></li>
+									</ul>									
+								</div><!-- /.slider-single -->
+
+			<div class="main-text">
+				<div class="main-tab tab-single tabOpen"><span>В комплект входят товары:</span></div>
+					<div class="main-tab-text" style="display: block;">
+						<div class="section-slider">
+							<div class="pr-slider slider">
+								
+								<div class="product-slider">
+									<div class="product-content color2">
+										<div class="product-img loader" data-ix="scale-on-scroll-delay-100">
+											<a href="#">
+												<img src="images/product/pr22.jpg" alt="#">
+												<i class="product-corner"></i>
+											</a>
+										</div>						
+										<div class="product-box" data-ix="scale-on-scroll-delay-200">
+											<div class="podbor-corner"></div>
+											<div class="product-top"><a href="single-item.html" class="pr-title">Задний бампер Kaymar Mitsubishi l200</a></div>
+											<div class="product-bottom">
+												<span class="product-price">Цена: 16952 грн.</span>
+												<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+											</div>
+											<div class="pr-text">
+												<p>Бампер Kaymar - мощная стальная замена хрупкому оригинальному бамперу. 
+			Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер. <br> Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка крепления для HI-LIFT и телескопической фары заднего хода...</p>
+											</div>								
+										</div>
+										<div class="productBox-right">
+											<ul class="list-inline">
+											 	<li class="li-1">
+											 		<div class="star-box star-inline">
+											 			<div class="s2"></div>
+											 		</div>
+											 	</li>
+											 	<li class="li-2">
+											 		<div class="inline-price">
+											 			<span>16952</span>
+											 			<span>грн.</span>
+											 		</div>
+											 	</li>
+											 	<li class="li-3">
+											 		<a href="#" class="see-link">
+												 		<span class="see-link-block"><i></i>
+												 		<span>Смотреть</span></span>
+											 		</a>
+											 	</li>
+											 	<li class="li-4">
+											 		<a href="#" class="btn-bay">
+											 			<span class="btn-bay-box">
+											 				<i></i>
+											 				<span>Купить</span>
+											 			</span>
+											 		</a>
+											 	</li>
+											 </ul> 
+										</div>						
+									</div><!-- /.product-content 5-->							
+
+									<div class="product-content color2">
+										<div class="product-img loader" data-ix="scale-on-scroll-delay-100">
+											<a href="#">
+												<img src="images/product/pr23.jpg" alt="#">
+												<i class="product-corner"></i>
+											</a>
+										</div>						
+										<div class="product-box" data-ix="scale-on-scroll-delay-200">
+											<div class="podbor-corner"></div>
+											<div class="product-top"><a href="single-item.html" class="pr-title">Задний бампер Kaymar Mitsubishi Pajero Sport 2009+</a></div>
+											<div class="product-bottom">
+												<span class="product-price">Цена: 16952 грн.</span>
+												<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+											</div>
+											<div class="pr-text">
+												<p>Бампер Kaymar - мощная стальная замена хрупкому оригинальному бамперу. 
+			Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер. <br> Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка крепления для HI-LIFT и телескопической фары заднего хода...</p>
+											</div>								
+										</div>
+										<div class="productBox-right">
+											<ul class="list-inline">
+											 	<li class="li-1">
+											 		<div class="star-box star-inline">
+											 			<div class="s3"></div>
+											 		</div>
+											 	</li>
+											 	<li class="li-2">
+											 		<div class="inline-price">
+											 			<span>16952</span>
+											 			<span>грн.</span>
+											 		</div>
+											 	</li>
+											 	<li class="li-3">
+											 		<a href="#" class="see-link">
+												 		<span class="see-link-block"><i></i>
+												 		<span>Смотреть</span></span>
+											 		</a>
+											 	</li>
+											 	<li class="li-4">
+											 		<a href="#" class="btn-bay">
+											 			<span class="btn-bay-box">
+											 				<i></i>
+											 				<span>Купить</span>
+											 			</span>
+											 		</a>
+											 	</li>
+											 </ul> 
+										</div>						
+									</div><!-- /.product-content 6-->	
+
+									<div class="product-content color2">
+										<div class="product-img loader" data-ix="scale-on-scroll-delay-100">
+											<a href="#">
+												<img src="images/product/pr24.jpg" alt="#">
+												<i class="product-corner"></i>
+											</a>
+										</div>						
+										<div class="product-box" data-ix="scale-on-scroll-delay-200">
+											<div class="podbor-corner"></div>
+											<div class="product-top"><a href="single-item.html" class="pr-title">Задний бампер Kaymar Toyota FJ Cruiser (K3660-S)</a></div>
+											<div class="product-bottom">
+												<span class="product-price">Цена: 16952 грн.</span>
+												<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+											</div>
+											<div class="pr-text">
+												<p>Бампер Kaymar - мощная стальная замена хрупкому оригинальному бамперу. 
+			Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер. <br> Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка крепления для HI-LIFT и телескопической фары заднего хода...</p>
+											</div>								
+										</div>
+										<div class="productBox-right">
+											<ul class="list-inline">
+											 	<li class="li-1">
+											 		<div class="star-box star-inline">
+											 			<div class="s4"></div>
+											 		</div>
+											 	</li>
+											 	<li class="li-2">
+											 		<div class="inline-price">
+											 			<span>16952</span>
+											 			<span>грн.</span>
+											 		</div>
+											 	</li>
+											 	<li class="li-3">
+											 		<a href="#" class="see-link">
+												 		<span class="see-link-block"><i></i>
+												 		<span>Смотреть</span></span>
+											 		</a>
+											 	</li>
+											 	<li class="li-4">
+											 		<a href="#" class="btn-bay">
+											 			<span class="btn-bay-box">
+											 				<i></i>
+											 				<span>Купить</span>
+											 			</span>
+											 		</a>
+											 	</li>
+											 </ul> 
+										</div>						
+									</div><!-- /.product-content 7-->	
+
+								</div><!-- /.slide 1 -->
+
+								<div class="product-slider">
+									<div class="product-content color2">
+										<div class="product-img loader">
+											<a href="#">
+												<img src="images/product/pr22.jpg" alt="#">
+												<i class="product-corner"></i>
+											</a>
+										</div>						
+										<div class="product-box">
+											<div class="podbor-corner"></div>
+											<div class="product-top"><a href="single-item.html" class="pr-title">Задний бампер Kaymar Mitsubishi l200</a></div>
+											<div class="product-bottom">
+												<span class="product-price">Цена: 16952 грн.</span>
+												<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+											</div>
+											<div class="pr-text">
+												<p>Бампер Kaymar - мощная стальная замена хрупкому оригинальному бамперу. 
+			Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер. <br> Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка крепления для HI-LIFT и телескопической фары заднего хода...</p>
+											</div>								
+										</div>
+										<div class="productBox-right">
+											<ul class="list-inline">
+											 	<li class="li-1">
+											 		<div class="star-box star-inline">
+											 			<div class="s2"></div>
+											 		</div>
+											 	</li>
+											 	<li class="li-2">
+											 		<div class="inline-price">
+											 			<span>16952</span>
+											 			<span>грн.</span>
+											 		</div>
+											 	</li>
+											 	<li class="li-3">
+											 		<a href="#" class="see-link">
+												 		<span class="see-link-block"><i></i>
+												 		<span>Смотреть</span></span>
+											 		</a>
+											 	</li>
+											 	<li class="li-4">
+											 		<a href="#" class="btn-bay">
+											 			<span class="btn-bay-box">
+											 				<i></i>
+											 				<span>Купить</span>
+											 			</span>
+											 		</a>
+											 	</li>
+											 </ul> 
+										</div>						
+									</div><!-- /.product-content 5-->							
+
+									<div class="product-content color2">
+										<div class="product-img loader">
+											<a href="#">
+												<img src="images/product/pr23.jpg" alt="#">
+												<i class="product-corner"></i>
+											</a>
+										</div>						
+										<div class="product-box">
+											<div class="podbor-corner"></div>
+											<div class="product-top"><a href="single-item.html" class="pr-title">Задний бампер Kaymar Mitsubishi Pajero Sport 2009+</a></div>
+											<div class="product-bottom">
+												<span class="product-price">Цена: 16952 грн.</span>
+												<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+											</div>
+											<div class="pr-text">
+												<p>Бампер Kaymar - мощная стальная замена хрупкому оригинальному бамперу. 
+			Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер. <br> Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка крепления для HI-LIFT и телескопической фары заднего хода...</p>
+											</div>								
+										</div>
+										<div class="productBox-right">
+											<ul class="list-inline">
+											 	<li class="li-1">
+											 		<div class="star-box star-inline">
+											 			<div class="s3"></div>
+											 		</div>
+											 	</li>
+											 	<li class="li-2">
+											 		<div class="inline-price">
+											 			<span>16952</span>
+											 			<span>грн.</span>
+											 		</div>
+											 	</li>
+											 	<li class="li-3">
+											 		<a href="#" class="see-link">
+												 		<span class="see-link-block"><i></i>
+												 		<span>Смотреть</span></span>
+											 		</a>
+											 	</li>
+											 	<li class="li-4">
+											 		<a href="#" class="btn-bay">
+											 			<span class="btn-bay-box">
+											 				<i></i>
+											 				<span>Купить</span>
+											 			</span>
+											 		</a>
+											 	</li>
+											 </ul> 
+										</div>						
+									</div><!-- /.product-content 6-->	
+
+									<div class="product-content color2">
+										<div class="product-img loader">
+											<a href="#">
+												<img src="images/product/pr24.jpg" alt="#">
+												<i class="product-corner"></i>
+											</a>
+										</div>						
+										<div class="product-box">
+											<div class="podbor-corner"></div>
+											<div class="product-top"><a href="single-item.html" class="pr-title">Задний бампер Kaymar Toyota FJ Cruiser (K3660-S)</a></div>
+											<div class="product-bottom">
+												<span class="product-price">Цена: 16952 грн.</span>
+												<a href="order.html" class="product-link d-hover"><span data-hover="Купить">Купить</span></a>
+											</div>
+											<div class="pr-text">
+												<p>Бампер Kaymar - мощная стальная замена хрупкому оригинальному бамперу. 
+			Бампер Kaymar максимально приближен к линиям кузова и дополняет его пропорции, как оригинальный бампер. <br> Бампер способен нести на себе калитки для запасного колеса, двух колес, дополнительной канистры топлива или все сразу, в зависимости от типа выбраных калиток. Так же на бампер возможна установка крепления для HI-LIFT и телескопической фары заднего хода...</p>
+											</div>								
+										</div>
+										<div class="productBox-right">
+											<ul class="list-inline">
+											 	<li class="li-1">
+											 		<div class="star-box star-inline">
+											 			<div class="s4"></div>
+											 		</div>
+											 	</li>
+											 	<li class="li-2">
+											 		<div class="inline-price">
+											 			<span>16952</span>
+											 			<span>грн.</span>
+											 		</div>
+											 	</li>
+											 	<li class="li-3">
+											 		<a href="#" class="see-link">
+												 		<span class="see-link-block"><i></i>
+												 		<span>Смотреть</span></span>
+											 		</a>
+											 	</li>
+											 	<li class="li-4">
+											 		<a href="#" class="btn-bay">
+											 			<span class="btn-bay-box">
+											 				<i></i>
+											 				<span>Купить</span>
+											 			</span>
+											 		</a>
+											 	</li>
+											 </ul> 
+										</div>						
+									</div><!-- /.product-content 7-->	
+
+								</div><!-- /.slide 2 -->								
+
+							</div>
+
+						<div class="clear"></div>
+						<ul class="slider-nav">
+							<li class="slidePrev slidePrev1" data-ix="scale-on-scroll-delay-100"><i class="prev-arrow"></i></li>
+							<li class="slideNext slideNext1" data-ix="scale-on-scroll-delay-200"><i class="next-arrow"></i></li>
+						</ul>							
+						</div><!-- /.section-slider -->
+					</div>		
+			</div><!-- /.main-text -->						
+
+			
+			<div class="section-modal"> <!-- style="display: block;" -->
+				
+				
+				<ul class="list-phones box-modal">
+					<li>
+						<div><span>Днепр</span><a href="tel:0679452700">(067) 945-27-00</a></div>
+					</li>
+					<li>
+						<div><span>Днепр</span><a href="tel:0632561580">(063) 256-15-80</a></div>
+					</li>
+					<li>
+						<div><span>Киев</span><a href="tel:0442336580">(044) 233-65-80</a></div>
+					</li>
+					<li>
+						<div><a href="#callOrder" class="modal-open"><span>Заказать</span> <span>звонок</span></a></div>
+					</li>
+				</ul><!-- /.list-phones -->
+				
+				<div class="search-box box-modal">									
+					<div class="search-form">
+						<form action="#" method="#">
+							<div class="form-control-box">
+								<input type="text" class="form-control" placeholder="Введите ключевые слова для поиска">
+								<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+							</div>
+							<div class="form-control-action">
+								<button type="submit" class="btn-sub"><span class="icon-search"></span></button>
+							</div>
+						</form>
+					</div>
+				</div><!-- /.search-box -->
+
+				<div class="consultant box-modal">
+					<div class="consultant-online">
+						<span class="consultant-title">Консультация онлайн</span>
+							<span class="consult-close close"></span>
+						<div class="consult-form">
+							<form action="#" method="post">
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Ваше имя">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Номер вашего телефона">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<textarea class="form-control" placeholder="Опишите вкратце возникшую проблему"></textarea>
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<button type="submit" class="btn-sub consult-btn"><span>Отправить</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div><!-- /.consultant -->
+
+
+				<div class="callBox box-modal">
+					<div class="consultant-online">
+						<span class="consultant-title">Мы Вам перезвоним</span>
+							<span class="call-close close"></span>
+						<div class="consult-form">
+							<form action="#" method="post">
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Ваше имя">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box error">
+									<input type="text" class="form-control" placeholder="Номер вашего телефона">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Когда и во сколько Вам удобно позвонить?">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>								
+								<div class="consult-control-box">
+									<button type="submit" class="btn-sub consult-btn"><span>Отправить</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div><!-- /.consultant -->				
+
+			</div><!-- /.section-modal -->
+			
+
+
+		<div class="menu__container">
+			<div class="menu__content">
+
+                <ul class="main-nav mainNavMobile">
+                    <li>
+                        <a href="#" data-box="prCatMobile" class="cat-menu mobile-link">
+                            <span>
+                                <i class="i-nav-1"></i>
+                                <span>
+                                    <span data-hover="Продукция">Продукция</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                   
+                    <li>
+                        <a href="#">
+                            <span>
+                                <i class="i-nav-2"></i>
+                                <span>
+                                    <span data-hover="Статьи">Статьи</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                   
+                    <li>
+                        <a href="video.html">
+                            <span>
+                                <i class="i-nav-3"></i>
+                                <span>
+                                    <span data-hover="Видео">Видео</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                   
+                    <li>
+                        <a href="#">
+                            <span>
+                                <i class="i-nav-4"></i>
+                                <span>
+                                    <span data-hover="О компании">О компании</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                   
+                    <li>
+                        <a href="contacts.html">
+                            <span>
+                                <i class="i-nav-5"></i>
+                                <span>
+                                    <span data-hover="Контакты">Контакты</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                   
+                    <li>
+                        <a href="single-page.html">
+                            <span>
+                                <i class="i-nav-6"></i>
+                                <span>
+                                    <span data-hover="Cтать дилером">Cтать дилером</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                    
+                    <li>
+                        <a href="payment.html">
+                            <span>
+                                <i class="i-nav-8"></i>
+                                <span>
+                                    <span data-hover="Оплата">Оплата</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                    
+                    <li>
+                        <a href="delivery.html">
+                            <span>
+                                <i class="i-nav-7"></i>
+                                <span>
+                                    <span data-hover="Доставка">Доставка</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+	
+
+				<ul class="product-cat prCatMobile">
+					<li>
+						<a href="#" data-sub="sm2" class="link-sub"><span class="pr-catImg loader catImgM"><img src="images/categories/cat1.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Экстерьер</span></span></a>
+					</li>
+					<li>
+						<a href="#" data-sub="sm1" class="link-sub"><span class="pr-catImg loader catImgM"><img src="images/categories/cat2.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Подвеска</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat3.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Лебедки</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat4.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Колеса и тормоза</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat5.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Трансмиссия</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat6.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Оптика</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat7.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Такелаж</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat8.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Путешествие и туризм</span></span></a>
+					</li>
+				</ul><!-- /.product-cat -->
+				
+				<div class="subMenuBox">
+					<ul class="subMenu-2 sm1">
+						<li><a href="#"><span>Амортизаторы Old Man Emu BP-51</span></a></li>
+						<li><a href="#"><span>Бамперы задние KAYMAR</span></a></li>
+						<li><a href="#"><span>Защита днища автомобиля ARB</span></a></li>
+						<li><a href="#"><span>Расширители ступицы Hofmann</span></a></li>
+						<li><a href="#"><span>Тормозные диски DBA</span></a></li>
+						<li><a href="#"><span>Тормозные колодки HAWK</span></a></li>
+						<li><a href="#"><span>Подвеска для внедорожников</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger sport</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger Sport Nitro Milosa</span></a></li>
+						<li><a href="#"><span>Пружины</span></a></li>
+						<li><a href="#"><span>Рессорные серьги old man emu</span></a></li>
+						<li><a href="#"><span>Торсионы old man emu</span></a></li>
+						<li><a href="#"><span>Рессоры old man emu</span></a></li>
+						<li><a href="#"><span>Бампера ARB</span></a></li>
+						<li><a href="#"><span>Бампера ARB</span></a></li>
+						<li><a href="#"><span>Амортизаторы Old Man Emu BP-51</span></a></li>
+						<li><a href="#"><span>Бамперы задние KAYMAR</span></a></li>
+						<li><a href="#"><span>Защита днища автомобиля ARB</span></a></li>
+						<li><a href="#"><span>Расширители ступицы Hofmann</span></a></li>
+						<li><a href="#"><span>Тормозные диски DBA</span></a></li>
+					</ul>					
+
+					<ul class="subMenu-2 sm2">
+						<li><a href="#"><span>Бампера ARB</span></a></li>
+						<li><a href="#"><span>Бампера ARB</span></a></li>
+						<li><a href="#"><span>Амортизаторы Old Man Emu BP-51</span></a></li>
+						<li><a href="#"><span>Бамперы задние KAYMAR</span></a></li>
+						<li><a href="#"><span>Защита днища автомобиля ARB</span></a></li>
+						<li><a href="#"><span>Расширители ступицы Hofmann</span></a></li>
+						<li><a href="#"><span>Тормозные диски DBA</span></a></li>
+						<li><a href="#"><span>Амортизаторы Old Man Emu BP-51</span></a></li>
+						<li><a href="#"><span>Бамперы задние KAYMAR</span></a></li>
+						<li><a href="#"><span>Защита днища автомобиля ARB</span></a></li>
+						<li><a href="#"><span>Расширители ступицы Hofmann</span></a></li>
+						<li><a href="#"><span>Тормозные диски DBA</span></a></li>
+						<li><a href="#"><span>Тормозные колодки HAWK</span></a></li>
+						<li><a href="#"><span>Подвеска для внедорожников</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger sport</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger Sport Nitro Milosa</span></a></li>
+						<li><a href="#"><span>Пружины</span></a></li>
+					</ul>					
+
+				</div><!-- /.subMenuBox -->
+
+
+			</div>
+		</div><!-- /.menu__container -->		
+
+		</div><!-- /.section-content -->
+
+		<footer>
+			<ul class="soc-list">
+				<li data-ix="nav-f-1"><a href="#"><i class="icon-fb"></i></a></li>
+				<li data-ix="nav-f-2"><a href="#"><i class="icon-vk"></i></a></li>
+				<li data-ix="nav-f-3"><a href="#"><i class="icon-tw"></i></a></li>
+				<li data-ix="nav-f-4"><a href="#"><i class="icon-yt"></i></a></li>
+			</ul>
+			<div class="footer-bottom">
+				<div class="copy" data-ix="fade-scroll-left">
+					<span>&copy; OLDMANEMU 4x4 Suspension by ARB</span>
+				</div>
+				<div class="btn-top" data-ix="fade-scroll-right"></div>				
+			</div>
+		</footer>
+	
+	</div><!-- /.main-content -->
+
+	</div><!-- /.content -->	
+</section><!--/.main-section -->
+
+<div id="callOrder" class="mfp-hide">
+    <div class="modal__container">
+					<div class="consultant-online">
+						<span class="consultant-title">Мы Вам перезвоним</span>
+							<span class="close mfp-close"></span>
+						<div class="consult-form">
+							<form action="#" method="post">
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Ваше имя">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box error">
+									<input type="text" class="form-control" placeholder="Номер вашего телефона">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Когда и во сколько Вам удобно позвонить?">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>								
+								<div class="consult-control-box">
+									<button type="submit" class="btn-sub consult-btn"><span>Отправить</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+    </div><!-- /.modal__container -->
+</div>
+
+<div id="consultantOrder" class="mfp-hide">
+    <div class="modal__container">
+					<div class="consultant-online">
+						<span class="consultant-title">Консультация онлайн</span>
+							<span class="close mfp-close"></span>
+						<div class="consult-form">
+							<form action="#" method="post">
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Ваше имя">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Номер вашего телефона">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+
+								<div class="consult-control-box">
+									<textarea class="form-control" placeholder="Опишите вкратце возникшую проблему"></textarea>
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>								
+								<div class="consult-control-box">
+									<button type="submit" class="btn-sub consult-btn"><span>Отправить</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+    </div><!-- /.modal__container -->
+</div>
+
+<div id="consultantCall" class="mfp-hide">
+    <div class="modal__container">
+					<div class="consultant-online">
+						<span class="consultant-title">Мы Вам перезвоним</span>
+							<span class="close mfp-close"></span>
+						<div class="consult-form">
+							<form action="#" method="post">
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Ваше имя">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Номер вашего телефона">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Когда и во сколько Вам удобно позвонить?">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>								
+								<div class="consult-control-box">
+									<button type="submit" class="btn-sub consult-btn"><span>Отправить</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+    </div><!-- /.modal__container -->
+</div>
+
+<div id="modalPhones" class="mfp-hide">
+    <div class="modal__container">
+					<div class="consultant-online onlineList">
+						<span class="close mfp-close"></span>
+
+							<ul class="list-phones listModal">
+								<li>
+									<div><span>Днепр</span><a href="tel:0679452700">(067) 945-27-00</a></div>
+								</li>
+								<li>
+									<div><span>Днепр</span><a href="tel:0632561580">(063) 256-15-80</a></div>
+								</li>
+								<li>
+									<div><span>Киев</span><a href="tel:0442336580">(044) 233-65-80</a></div>
+								</li>
+								<li>
+									<div><a href="#callOrder" class="modal-open"><span>Заказать</span> <span>звонок</span></a></div>
+								</li>
+							</ul><!-- /.list-phones -->
+					</div>
+    </div><!-- /.modal__container -->
+</div>
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<!--[if lt IE 9]>      
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js "></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script>  
+<![endif]-->   
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.scrollTo-min.js"></script>
+
+
+<script src="js/photoswipe.min.js"></script>
+<script src="js/photoswipe-ui-default.js"></script>
+<script src="js/modernizr.js"></script>
+    <script type="text/javascript">
+ var initPhotoSwipeFromDOM = function(gallerySelector) {
+
+    // parse slide data (url, title, size ...) from DOM elements 
+    // (children of gallerySelector)
+    var parseThumbnailElements = function(el) {
+        var thumbElements = el.childNodes,
+            numNodes = thumbElements.length,
+            items = [],
+            figureEl,
+            linkEl,
+            size,
+            item;
+
+        for(var i = 0; i < numNodes; i++) {
+
+            figureEl = thumbElements[i]; // <figure> element
+
+            // include only element nodes 
+            if(figureEl.nodeType !== 1) {
+                continue;
+            }
+
+            linkEl = figureEl.children[0]; // <a> element
+
+            size = linkEl.getAttribute('data-size').split('x');
+
+            // create slide object
+            item = {
+                src: linkEl.getAttribute('href'),
+                w: parseInt(size[0], 10),
+                h: parseInt(size[1], 10)
+            };
+
+
+
+            if(figureEl.children.length > 1) {
+                // <figcaption> content
+                item.title = figureEl.children[1].innerHTML; 
+            }
+
+            if(linkEl.children.length > 0) {
+                // <img> thumbnail element, retrieving thumbnail url
+                item.msrc = linkEl.children[0].getAttribute('src');
+            } 
+
+            item.el = figureEl; // save link to element for getThumbBoundsFn
+            items.push(item);
+        }
+
+        return items;
+    };
+
+    // find nearest parent element
+    var closest = function closest(el, fn) {
+        return el && ( fn(el) ? el : closest(el.parentNode, fn) );
+    };
+
+    // triggers when user clicks on thumbnail
+    var onThumbnailsClick = function(e) {
+        e = e || window.event;
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+        var eTarget = e.target || e.srcElement;
+
+        // find root element of slide
+        var clickedListItem = closest(eTarget, function(el) {
+            return (el.tagName && el.tagName.toUpperCase() === 'LI');
+        });
+
+        if(!clickedListItem) {
+            return;
+        }
+
+        // find index of clicked item by looping through all child nodes
+        // alternatively, you may define index via data- attribute
+        var clickedGallery = clickedListItem.parentNode,
+            childNodes = clickedListItem.parentNode.childNodes,
+            numChildNodes = childNodes.length,
+            nodeIndex = 0,
+            index;
+
+        for (var i = 0; i < numChildNodes; i++) {
+            if(childNodes[i].nodeType !== 1) { 
+                continue; 
+            }
+
+            if(childNodes[i] === clickedListItem) {
+                index = nodeIndex;
+                break;
+            }
+            nodeIndex++;
+        }
+
+
+
+        if(index >= 0) {
+            // open PhotoSwipe if valid index found
+            openPhotoSwipe( index, clickedGallery );
+        }
+        return false;
+    };
+
+    // parse picture index and gallery index from URL (#&pid=1&gid=2)
+    var photoswipeParseHash = function() {
+        var hash = window.location.hash.substring(1),
+        params = {};
+
+        if(hash.length < 5) {
+            return params;
+        }
+
+        var vars = hash.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            if(!vars[i]) {
+                continue;
+            }
+            var pair = vars[i].split('=');  
+            if(pair.length < 2) {
+                continue;
+            }           
+            params[pair[0]] = pair[1];
+        }
+
+        if(params.gid) {
+            params.gid = parseInt(params.gid, 10);
+        }
+
+        return params;
+    };
+
+    var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+        var pswpElement = document.querySelectorAll('.pswp')[0],
+            gallery,
+            options,
+            items;
+
+        items = parseThumbnailElements(galleryElement);
+
+        // define options (if needed)
+        options = {
+
+            // define gallery index (for URL)
+            galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+
+            getThumbBoundsFn: function(index) {
+                // See Options -> getThumbBoundsFn section of documentation for more info
+                var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
+                    pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+                    rect = thumbnail.getBoundingClientRect(); 
+
+                return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+            }
+
+        };
+
+        // PhotoSwipe opened from URL
+        if(fromURL) {
+            if(options.galleryPIDs) {
+                // parse real index when custom PIDs are used 
+                // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
+                for(var j = 0; j < items.length; j++) {
+                    if(items[j].pid == index) {
+                        options.index = j;
+                        break;
+                    }
+                }
+            } else {
+                // in URL indexes start from 1
+                options.index = parseInt(index, 10) - 1;
+            }
+        } else {
+            options.index = parseInt(index, 10);
+        }
+
+        // exit if index not found
+        if( isNaN(options.index) ) {
+            return;
+        }
+
+        if(disableAnimation) {
+            options.showAnimationDuration = 0;
+        }
+
+        // Pass data to PhotoSwipe and initialize it
+        gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    // loop through all gallery elements and bind events
+    var galleryElements = document.querySelectorAll( gallerySelector );
+
+    for(var i = 0, l = galleryElements.length; i < l; i++) {
+        galleryElements[i].setAttribute('data-pswp-uid', i+1);
+        galleryElements[i].onclick = onThumbnailsClick;
+    }
+
+    // Parse URL and open gallery if it contains #&pid=3&gid=1
+    var hashData = photoswipeParseHash();
+    if(hashData.pid && hashData.gid) {
+        openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
+    }
+};
+
+// execute above function
+initPhotoSwipeFromDOM('.demo-gallery');
+	</script>
+	<script src="js/script.js"></script>
+<script src="js/timer.js"></script>
+</body>
+</html>

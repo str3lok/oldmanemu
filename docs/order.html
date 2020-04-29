@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>oldmanemu</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body class="page-order">
+
+<section class="main-section">
+	<div class="topScroll"></div>
+	<div class="content">
+	
+	<div class="main-content">
+		<div class="section-left xs-hidden">
+			<div class="section-left-content">
+				<div class="burger-box">
+					<span class="burger-nav mobile-nav"></span>
+					<span class="burger-nav m2Lavel"></span>
+				</div>
+				<ul class="main-nav">
+					<li>
+						<a href="#" class="menuOpen">
+							<span>
+								<i class="i-nav-1"></i>
+								<span>
+									<span data-hover="Продукция">Продукция</span>
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li>
+						<a href="articles.html">
+							<span>
+								<i class="i-nav-2"></i>
+								<span>
+									<span data-hover="Статьи">Статьи</span>
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li>
+						<a href="video.html">
+							<span>
+								<i class="i-nav-3"></i>
+								<span>
+									<span data-hover="Видео">Видео</span>
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li>
+						<a href="#">
+							<span>
+								<i class="i-nav-4"></i>
+								<span>
+									<span data-hover="О компании">О компании</span>
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li>
+						<a href="contacts.html">
+							<span>
+								<i class="i-nav-5"></i>
+								<span>
+									<span data-hover="Контакты">Контакты</span>
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li>
+						<a href="single-page.html">
+							<span>
+								<i class="i-nav-6"></i>
+								<span>
+									<span data-hover="Cтать дилером">Cтать дилером</span>
+								</span>
+							</span>
+						</a>
+					</li>
+				</ul>								
+			</div><!--/.section-left-content-->
+		</div><!-- /.section-left -->
+		
+		<div class="section-content">
+			<header>
+				<div class="header-top">
+				<div class="burger-box xs-visible">
+					<a href="#" data-box="callBox" class="modal-link callModal order-call">
+						<i class="phone-2"></i> 
+						<span class="i-txt">Заказ звонка</span>
+					</a>					
+				</div>				
+					<div class="logo"><a href="home.html"><img src="images/logo.png" alt="#"></a></div>
+					<ul class="header-phones">
+						<li>
+							<a href="#" data-box="list-phones" class="modal-link">
+								<i class="phone-1"></i>
+								<span class="i-txt">Телефоны</span>
+							</a>
+						</li>
+						<li class="xs-hidden">
+							<a href="#" data-box="callBox" class="modal-link callModal">
+								<i class="phone-2"></i>
+								<span class="i-txt">Заказ звонка</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="header-bottom">
+					<li>
+						<a href="#" class="i-btn-search modal-link" data-box="search-box">
+							<i></i>
+							<span class="i-txt">Поиск</span>
+						</a>
+					</li>
+					<li id="selectCurrency">
+						<a href="#" class="i-currency dollar">
+							<span></span>
+							<span class="i-txt">Валюта</span>	
+						</a>
+						<ul class="drop drop-currency">
+							<li data-value="₴" class="grivna"><span><i>₴</i> <span>В гривнах</span></span></li>
+							<li data-value="$" class="dollar"><span><i>$</i> <span>В долларах</span></span></li>
+						</ul>
+						<input type="hidden" id="valCurrency">
+					</li>
+					<li>
+						<a href="#" class="i-share share-btn">
+							<i></i>
+							<span class="i-txt">Расшарить</span>
+						</a>
+						<ul class="drop drop-share">
+							<li><a href="#" class="i-fb"><i></i></a></li>
+							<li><a href="#" class="i-vk"><i></i></a></li>
+							<li><a href="#" class="i-tw"><i></i></a></li>
+						</ul>						
+					</li>
+					<li>
+						<a href="#" data-box="consultant" class="i-consultant modal-link">
+							<i></i>
+							<span class="i-txt">Консультация</span>
+						</a>
+					</li>
+				</ul>
+			</header>
+				
+				<div class="order-title" data-ix="fade-from-left">
+					<div class="title" data-ix="fade-from-left-2">
+						<h1>Оформление заказа</h1>
+					</div>	
+
+
+					<div class="order-t-right">
+						<div class="order-action">
+							<div class="order-action-txt" data-ix="fade-from-bottom"><span>Количество:</span></div>
+							<div class="order-action-col orderColPc" data-ix="fade-from-bottom-2">
+								<div class="order-action-top orderTop"><span>1</span></div>
+								<ul class="order-btn">
+									<li><a href="#" class="btn-minus order-minus"><span></span></a></li>
+									<li><a href="#" class="btn-plus order-plus"><span></span></a></li>
+								</ul>
+							</div>
+						</div><!-- /.order-action -->
+
+						<ul class="order-t-list order-t-listTop">
+							<li class="simple-link" data-ix="fade-from-bottom-3">
+								<a href="delivery.html">
+									<span class="sl-box sl-2">
+										<i></i>
+										<span><span data-hover="Доставка">Доставка</span></span>
+									</span>
+								</a>
+							</li>
+							<li class="simple-link" data-ix="fade-from-bottom-4">
+								<a href="payment.html">
+									<span class="sl-box sl-1">
+										<i></i>
+										<span><span data-hover="Оплата">Оплата</span></span>
+									</span>
+								</a>
+							</li>							
+						</ul>
+					</div><!-- /.order-t-right -->		
+
+				</div><!-- /.order-title -->
+
+				<div class="order-form-container">
+					<form action="#" method="post">
+
+						<div class="order-form-box order-form">
+
+							<div class="order-control-box">
+								<input type="text" class="form-control" placeholder="Ваше имя">
+								<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+							</div>	
+							<div class="order-control-box">
+								<input type="text" class="form-control" placeholder="Ваше имя">
+								<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+							</div>								
+									<div class="order-control-box">
+										<div class="select-box" id="selectPay">
+											<span class="slct"><span>Оплата по факту</span></span>
+											<ul class="drop-select">
+												<li data-value="pay1"><span>Оплата по факту</span></li>
+												<li data-value="pay2"><span>Наложенным платежом</span></li>
+												<li data-value="pay3"><span>Безналичный расчет</span></li>
+											</ul>
+											<input type="hidden" id="valPay">
+										</div>
+									</div>											
+						</div><!-- /.order-form-box 1-->
+
+						<div class="order-form-box order-form">
+							<div class="order-control-box">
+								<input type="tel" class="form-control" placeholder="Телефон">
+								<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+							</div>		
+							<div class="order-control-box order-textarea">
+								<textarea class="form-control" placeholder="Адрес доставки"></textarea>
+								<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+							</div>												
+						</div><!-- /.order-form-box 2-->
+
+						<div class="order-form-box order-form">
+							<div class="order-control-box">
+								<input type="email" class="form-control" placeholder="E-mail">
+								<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+							</div>		
+							<div class="order-control-box order-textarea">
+								<textarea class="form-control" placeholder="Комментарий к заказу"></textarea>
+								<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+							</div>												
+						</div><!-- /.order-form-box 3-->
+
+						<div class="order-form-box orderFormSum">
+							<div class="order-sum">
+								<div data-price="78913">
+									<span class="orderSum">78913</span> <span>грн.</span>
+								</div>
+							</div><!-- /.order-sum -->
+
+							<div class="order-action-col">
+								<div class="order-action-top"><span>1</span></div>
+								<ul class="order-btn">
+									<li><a href="#" class="btn-minus order-minus"><span></span></a></li>
+									<li><a href="#" class="btn-plus order-plus"><span></span></a></li>
+								</ul>
+							</div>
+
+							<a href="#" class="order-basket">
+								<span class="order-basket-box">
+									<i></i>
+									<span class="order-basket-txt"><span>Оформить</span> <span>заказ</span></span>
+								</span>
+							</a>
+						</div><!-- /.order-form-box 4-->
+
+					</form>
+				</div><!-- /.order-form-container -->
+				
+				<ul class="contacts-list">
+					<li data-ix="fade-scroll-bottom-300">
+						<a href="tel:0679452700">
+							<span class="contacts-box">
+								<i class="icon-phone-1"></i>
+								<span class="contacts-list-txt">
+									<span>Днепр</span>
+									<span>(067) 945-27-00</span>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li data-ix="fade-scroll-bottom-500">
+						<a href="tel:0632561580">
+							<span class="contacts-box">
+								<i class="icon-phone-1"></i>
+								<span class="contacts-list-txt">
+									<span>Днепр</span>
+									<span>(063) 256-15-80</span>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li data-ix="fade-scroll-bottom-700">
+						<a href="tel:0442336580">
+							<span class="contacts-box">
+								<i class="icon-phone-1"></i>
+								<span class="contacts-list-txt">
+									<span>Киев</span>
+									<span>(044) 233-65-80</span>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li data-ix="fade-scroll-bottom-900">
+						<a href="#callOrder" class="modal-open">
+							<span class="contacts-box">
+								<i class="icon-phone-2"></i>
+								<span class="contacts-list-txt">
+									<span>Заказать</span>
+									<span>звонок</span>
+								</span>
+							</span>
+						</a>
+					</li>										
+				</ul><!-- /.contacts-list -->
+									
+			
+						<ul class="order-t-list order-t-listBottom">
+							<li class="simple-link">
+								<a href="#">
+									<span class="sl-box sl-2">
+										<i></i>
+										<span>Доставка</span>
+									</span>
+								</a>
+							</li>
+							<li class="simple-link">
+								<a href="#">
+									<span class="sl-box sl-1">
+										<i></i>
+										<span>Оплата</span>
+									</span>
+								</a>
+							</li>							
+						</ul>			
+					
+			
+			<div class="section-modal"> <!-- style="display: block;" -->
+				
+				
+				<ul class="list-phones box-modal">
+					<li>
+						<div><span>Днепр</span><a href="tel:0679452700">(067) 945-27-00</a></div>
+					</li>
+					<li>
+						<div><span>Днепр</span><a href="tel:0632561580">(063) 256-15-80</a></div>
+					</li>
+					<li>
+						<div><span>Киев</span><a href="tel:0442336580">(044) 233-65-80</a></div>
+					</li>
+					<li>
+						<div><a href="#callOrder" class="modal-open"><span>Заказать</span> <span>звонок</span></a></div>
+					</li>
+				</ul><!-- /.list-phones -->
+				
+				<div class="search-box box-modal">									
+					<div class="search-form">
+						<form action="#" method="#">
+							<div class="form-control-box">
+								<input type="text" class="form-control" placeholder="Введите ключевые слова для поиска">
+								<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+							</div>
+							<div class="form-control-action">
+								<button type="submit" class="btn-sub"><span class="icon-search"></span></button>
+							</div>
+						</form>
+					</div>
+				</div><!-- /.search-box -->
+
+				<div class="consultant box-modal">
+					<div class="consultant-online">
+						<span class="consultant-title">Консультация онлайн</span>
+							<span class="consult-close close"></span>
+						<div class="consult-form">
+							<form action="#" method="post">
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Ваше имя">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Номер вашего телефона">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<textarea class="form-control" placeholder="Опишите вкратце возникшую проблему"></textarea>
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<button type="submit" class="btn-sub consult-btn"><span>Отправить</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div><!-- /.consultant -->
+
+
+				<div class="callBox box-modal">
+					<div class="consultant-online">
+						<span class="consultant-title">Мы Вам перезвоним</span>
+							<span class="call-close close"></span>
+						<div class="consult-form">
+							<form action="#" method="post">
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Ваше имя">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box error">
+									<input type="text" class="form-control" placeholder="Номер вашего телефона">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Когда и во сколько Вам удобно позвонить?">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>								
+								<div class="consult-control-box">
+									<button type="submit" class="btn-sub consult-btn"><span>Отправить</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div><!-- /.consultant -->				
+
+			</div><!-- /.section-modal -->
+			
+			
+
+
+		<div class="menu__container">
+			<div class="menu__content">
+
+                <ul class="main-nav mainNavMobile">
+                    <li>
+                        <a href="#" data-box="prCatMobile" class="cat-menu mobile-link">
+                            <span>
+                                <i class="i-nav-1"></i>
+                                <span>
+                                    <span data-hover="Продукция">Продукция</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                   
+                    <li>
+                        <a href="#">
+                            <span>
+                                <i class="i-nav-2"></i>
+                                <span>
+                                    <span data-hover="Статьи">Статьи</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                   
+                    <li>
+                        <a href="video.html">
+                            <span>
+                                <i class="i-nav-3"></i>
+                                <span>
+                                    <span data-hover="Видео">Видео</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                   
+                    <li>
+                        <a href="#">
+                            <span>
+                                <i class="i-nav-4"></i>
+                                <span>
+                                    <span data-hover="О компании">О компании</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                   
+                    <li>
+                        <a href="contacts.html">
+                            <span>
+                                <i class="i-nav-5"></i>
+                                <span>
+                                    <span data-hover="Контакты">Контакты</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                   
+                    <li>
+                        <a href="single-page.html">
+                            <span>
+                                <i class="i-nav-6"></i>
+                                <span>
+                                    <span data-hover="Cтать дилером">Cтать дилером</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                    
+                    <li>
+                        <a href="payment.html">
+                            <span>
+                                <i class="i-nav-8"></i>
+                                <span>
+                                    <span data-hover="Оплата">Оплата</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>                    
+                    <li>
+                        <a href="delivery.html">
+                            <span>
+                                <i class="i-nav-7"></i>
+                                <span>
+                                    <span data-hover="Доставка">Доставка</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+	
+
+				<ul class="product-cat prCatMobile">
+					<li>
+						<a href="#" data-sub="sm2" class="link-sub"><span class="pr-catImg loader catImgM"><img src="images/categories/cat1.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Экстерьер</span></span></a>
+					</li>
+					<li>
+						<a href="#" data-sub="sm1" class="link-sub"><span class="pr-catImg loader catImgM"><img src="images/categories/cat2.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Подвеска</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat3.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Лебедки</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat4.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Колеса и тормоза</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat5.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Трансмиссия</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat6.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Оптика</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat7.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Такелаж</span></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="pr-catImg loader catImgM"><img src="images/categories/cat8.jpg" alt="#"></span>
+						<span class="pr-catLink"><span>Путешествие и туризм</span></span></a>
+					</li>
+				</ul><!-- /.product-cat -->
+				
+				<div class="subMenuBox">
+					<ul class="subMenu-2 sm1">
+						<li><a href="#"><span>Амортизаторы Old Man Emu BP-51</span></a></li>
+						<li><a href="#"><span>Бамперы задние KAYMAR</span></a></li>
+						<li><a href="#"><span>Защита днища автомобиля ARB</span></a></li>
+						<li><a href="#"><span>Расширители ступицы Hofmann</span></a></li>
+						<li><a href="#"><span>Тормозные диски DBA</span></a></li>
+						<li><a href="#"><span>Тормозные колодки HAWK</span></a></li>
+						<li><a href="#"><span>Подвеска для внедорожников</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger sport</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger Sport Nitro Milosa</span></a></li>
+						<li><a href="#"><span>Пружины</span></a></li>
+						<li><a href="#"><span>Рессорные серьги old man emu</span></a></li>
+						<li><a href="#"><span>Торсионы old man emu</span></a></li>
+						<li><a href="#"><span>Рессоры old man emu</span></a></li>
+						<li><a href="#"><span>Бампера ARB</span></a></li>
+						<li><a href="#"><span>Бампера ARB</span></a></li>
+						<li><a href="#"><span>Амортизаторы Old Man Emu BP-51</span></a></li>
+						<li><a href="#"><span>Бамперы задние KAYMAR</span></a></li>
+						<li><a href="#"><span>Защита днища автомобиля ARB</span></a></li>
+						<li><a href="#"><span>Расширители ступицы Hofmann</span></a></li>
+						<li><a href="#"><span>Тормозные диски DBA</span></a></li>
+					</ul>					
+
+					<ul class="subMenu-2 sm2">
+						<li><a href="#"><span>Бампера ARB</span></a></li>
+						<li><a href="#"><span>Бампера ARB</span></a></li>
+						<li><a href="#"><span>Амортизаторы Old Man Emu BP-51</span></a></li>
+						<li><a href="#"><span>Бамперы задние KAYMAR</span></a></li>
+						<li><a href="#"><span>Защита днища автомобиля ARB</span></a></li>
+						<li><a href="#"><span>Расширители ступицы Hofmann</span></a></li>
+						<li><a href="#"><span>Тормозные диски DBA</span></a></li>
+						<li><a href="#"><span>Амортизаторы Old Man Emu BP-51</span></a></li>
+						<li><a href="#"><span>Бамперы задние KAYMAR</span></a></li>
+						<li><a href="#"><span>Защита днища автомобиля ARB</span></a></li>
+						<li><a href="#"><span>Расширители ступицы Hofmann</span></a></li>
+						<li><a href="#"><span>Тормозные диски DBA</span></a></li>
+						<li><a href="#"><span>Тормозные колодки HAWK</span></a></li>
+						<li><a href="#"><span>Подвеска для внедорожников</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger sport</span></a></li>
+						<li><a href="#"><span>Амортизаторы old man emu Nitrocharger Sport Nitro Milosa</span></a></li>
+						<li><a href="#"><span>Пружины</span></a></li>
+					</ul>					
+
+				</div><!-- /.subMenuBox -->
+
+
+			</div>
+		</div><!-- /.menu__container -->		
+
+		</div><!-- /.section-content -->
+
+		<footer>
+			<ul class="soc-list">
+				<li data-ix="nav-f-1"><a href="#"><i class="icon-fb"></i></a></li>
+				<li data-ix="nav-f-2"><a href="#"><i class="icon-vk"></i></a></li>
+				<li data-ix="nav-f-3"><a href="#"><i class="icon-tw"></i></a></li>
+				<li data-ix="nav-f-4"><a href="#"><i class="icon-yt"></i></a></li>
+			</ul>
+			<div class="footer-bottom">
+				<div class="copy" data-ix="fade-scroll-left">
+					<span>&copy; OLDMANEMU 4x4 Suspension by ARB</span>
+				</div>
+				<div class="btn-top" data-ix="fade-scroll-right"></div>				
+			</div>
+		</footer>
+	
+	</div><!-- /.main-content -->
+
+	</div><!-- /.content -->	
+</section><!--/.main-section -->
+
+<div id="callOrder" class="mfp-hide">
+    <div class="modal__container">
+					<div class="consultant-online">
+						<span class="consultant-title">Мы Вам перезвоним</span>
+							<span class="close mfp-close"></span>
+						<div class="consult-form">
+							<form action="#" method="post">
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Ваше имя">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box error">
+									<input type="text" class="form-control" placeholder="Номер вашего телефона">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>
+								<div class="consult-control-box">
+									<input type="text" class="form-control" placeholder="Когда и во сколько Вам удобно позвонить?">
+									<div class="error-text"><span>Пожалуйста, заполните поле</span></div>
+								</div>								
+								<div class="consult-control-box">
+									<button type="submit" class="btn-sub consult-btn"><span>Отправить</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+    </div><!-- /.modal__container -->
+</div>
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<!--[if lt IE 9]>      
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js "></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script>  
+<![endif]-->   
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.scrollTo-min.js"></script>
+<script src="js/script.js"></script>  
+<script src="js/webflow.js"></script>
+<script src="js/modernizr.js"></script>
+</body>
+</html>
